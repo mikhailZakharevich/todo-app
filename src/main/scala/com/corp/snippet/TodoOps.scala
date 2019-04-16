@@ -61,7 +61,7 @@ class TodoOps extends Logger {
     val todo = todoVar.is
 
     "#description" #> todo.description.asHtml &
-      "#edit" #> SHtml.link(editMenuPath, () => todoVar(todo), Text("edit"), ("class", "btn"))
+      "#edit" #> SHtml.link(editMenuPath, () => todoVar(todo), Text("edit"), ("class", "btn btn-outline-primary"))
   }
 
   def list = {
