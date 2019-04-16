@@ -1,0 +1,28 @@
+04-15 17:04:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "STRINGDECODE('sddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffff\r\nffffffsddtffffffsddtffffffsddtffffffsddt... (402)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "STRINGDECODE('sddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffff\r\nffffffsddtffffffsddtffffffsddtffffffsddt... (402)"; SQL statement:
+UPDATE todo SET description = ? WHERE id = ? [22001-187]
+04-15 19:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'frrrrrrrrrrrrrrrrrrrrrrrrrwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrfrrrrrrrrrrrrrrrrrrrrrrrrrwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr... (544)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'frrrrrrrrrrrrrrrrrrrrrrrrrwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrfrrrrrrrrrrrrrrrrrrrrrrrrrwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr... (544)"; SQL statement:
+INSERT INTO todo (completed,createdat,description) VALUES (?,?,?) [22001-187]
+04-15 19:08:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'sddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtfff... (560)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'sddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtffffffsddtfff... (560)"; SQL statement:
+UPDATE todo SET description = ? WHERE id = ? [22001-187]
+04-16 12:02:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'fefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufef... (558)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'fefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufef... (558)"; SQL statement:
+INSERT INTO todo (description) VALUES (?) [22001-187]
+04-16 12:03:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'fsvvrbvdfbgrgregegfefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbn... (266)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'fsvvrbvdfbgrgregegfefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbnhnjukuk7yukykmufefwefwfweffbvbn... (266)"; SQL statement:
+INSERT INTO todo (description) VALUES (?) [22001-187]
+04-16 12:05:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'fdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrg... (520)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'fdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrgrgrfdfvmvmvllk;l;czcxzczrg... (520)"; SQL statement:
+INSERT INTO todo (description) VALUES (?) [22001-187]
+04-16 12:10:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Значение слишком длинное для поля "DESCRIPTION VARCHAR(100)": "'csdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwe... (330)"
+Value too long for column "DESCRIPTION VARCHAR(100)": "'csdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwegfregtehcsdacwe... (330)"; SQL statement:
+INSERT INTO todo (description) VALUES (?) [22001-187]
