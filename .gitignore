@@ -1,5 +1,6 @@
 logs
 
+*.db
 *.pyc
 
 .idea
